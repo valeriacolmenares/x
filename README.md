@@ -67,3 +67,71 @@ flowchart LR
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000&height=120&section=footer" width="100%"/>
 </div>
+
+
+
+---
+<div align="center">
+
+![Analisis](https://readme-typing-svg.demolab.com?font=Montserrat&size=28&pause=1000&color=8B0000&center=true&vCenter=true&width=350&lines=Analisis)
+
+</div>
+
+En la gráfica se observa que en las **horas pico de la tarde**, especialmente entre las **4:00 p.m. y las 6:00 p.m.**, la cantidad de pasajeros en las estaciones **Museo del Oro**, **Las Aguas** y **Los Ríos** supera la capacidad del sistema, lo que evidencia un problema de congestión.
+
+Esto se debe a que estas estaciones dependen únicamente de la ruta **FJ23** durante todo el día, por lo que toda la demanda se concentra en un solo servicio.
+
+---
+
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Montserrat&size=28&pause=1000&color=8B0000&center=true&vCenter=true&width=350&lines=Solucion+Propuesta" />
+</div>
+
+<p align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Articulado_de_Transmilenio_en_el_Eje_Ambiental.JPG/800px-Articulado_de_Transmilenio_en_el_Eje_Ambiental.JPG" width="65%" style="border-radius:12px;">
+</p>
+
+Se propone aprovechar la ruta **H76**, que conecta la estación Universidades con la troncal Caracas hacia el sur y opera únicamente en horas pico. Esta ruta suele salir con **baja ocupación** desde Universidades, lo que indica que tiene capacidad disponible que no se está aprovechando.
+
+```mermaid
+flowchart LR
+    A[Las Aguas] --> B[Eje Ambiental]
+    B --> C[Museo del Oro]
+    C --> D[Avenida Jiménez]
+    D --> E[Troncal Caracas]
+```
+
+<div align="center">
+<table>
+<tr><th>Situación actual</th><th>Propuesta</th></tr>
+<tr><td>H76 sale desde Universidades-City U</td><td>H76 inicia en Las Aguas</td></tr>
+<tr><td>Baja ocupación al salir</td><td>Recoge demanda del corredor FJ23</td></tr>
+<tr><td>Toda la carga sobre FJ23</td><td>Demanda distribuida entre dos rutas</td></tr>
+<tr><td>Alta congestión en horas pico</td><td>Menor necesidad de aumentar frecuencia FJ23</td></tr>
+</table>
+</div>
+
+> *Dos rutas atendiendo el mismo corredor en horas pico significa menos congestión y un sistema más resiliente.*
+
+
+
+---
+
+<div align="center">
+
+## Solución Propuesta
+
+</div>
+
+En las horas pico de la tarde, especialmente entre las **4:00 p.m. y las 6:00 p.m.**, la demanda en las estaciones **Museo del Oro**, **Las Aguas** y **Los Ríos** supera la capacidad del sistema. Dado que estas estaciones dependen únicamente de la ruta **FJ23**, toda la carga recae sobre un solo servicio.
+
+Se propone **modificar el recorrido de la ruta H76**, que actualmente sale con baja ocupación desde Universidades-City U, para que inicie en la estación **Las Aguas**, baje por el **Eje Ambiental**, conecte con **Museo del Oro** y se integre en **Avenida Jiménez** antes de continuar hacia la troncal Caracas.
+
+```mermaid
+flowchart LR
+    A[Las Aguas] --> B[Eje Ambiental]
+    B --> C[Museo del Oro]
+    C --> D[Avenida Jimenez]
+    D --> E[Troncal Caracas]
+```
+> *Al contar con una segunda ruta en horas pico, se reduce la necesidad de aumentar la frecuencia de la FJ23.*
