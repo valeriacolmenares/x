@@ -88,40 +88,8 @@ Esto se debe a que estas estaciones dependen únicamente de la ruta **FJ23** dur
 </div>
 
 <p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Articulado_de_Transmilenio_en_el_Eje_Ambiental.JPG/800px-Articulado_de_Transmilenio_en_el_Eje_Ambiental.JPG" width="65%" style="border-radius:12px;">
+<img src="./2019_Bogotá_-_Estación_Las_Aguas_de_Transmilenio.jpg" width="65%" style="border-radius:12px;">
 </p>
-
-Se propone aprovechar la ruta **H76**, que conecta la estación Universidades con la troncal Caracas hacia el sur y opera únicamente en horas pico. Esta ruta suele salir con **baja ocupación** desde Universidades, lo que indica que tiene capacidad disponible que no se está aprovechando.
-
-```mermaid
-flowchart LR
-    A[Las Aguas] --> B[Eje Ambiental]
-    B --> C[Museo del Oro]
-    C --> D[Avenida Jiménez]
-    D --> E[Troncal Caracas]
-```
-
-<div align="center">
-<table>
-<tr><th>Situación actual</th><th>Propuesta</th></tr>
-<tr><td>H76 sale desde Universidades-City U</td><td>H76 inicia en Las Aguas</td></tr>
-<tr><td>Baja ocupación al salir</td><td>Recoge demanda del corredor FJ23</td></tr>
-<tr><td>Toda la carga sobre FJ23</td><td>Demanda distribuida entre dos rutas</td></tr>
-<tr><td>Alta congestión en horas pico</td><td>Menor necesidad de aumentar frecuencia FJ23</td></tr>
-</table>
-</div>
-
-> *Dos rutas atendiendo el mismo corredor en horas pico significa menos congestión y un sistema más resiliente.*
-
-
-
----
-
-<div align="center">
-
-## Solución Propuesta
-
-</div>
 
 En las horas pico de la tarde, especialmente entre las **4:00 p.m. y las 6:00 p.m.**, la demanda en las estaciones **Museo del Oro**, **Las Aguas** y **Los Ríos** supera la capacidad del sistema. Dado que estas estaciones dependen únicamente de la ruta **FJ23**, toda la carga recae sobre un solo servicio.
 
